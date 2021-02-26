@@ -47,6 +47,7 @@ RUN apk update && apk add --no-cache --virtual .build-deps \
  		oauth2client \
     	pyasn1 \
         Mopidy-Moped \
+	yandex_music \
         Mopidy-Yandexmusic \
         Mopidy-Scrobbler \
         Mopidy-SomaFM \
