@@ -3,7 +3,7 @@
   "version": "1.1.5",
   "slug": "mopidy",
   "description": "Mopidy music server",
-  "url": "https://github.com/assada/hassio-addons/tree/master/mopidy",
+  "url": "https://github.com/cwalker/hassio-addons/tree/master/mopidy",
   "startup": "application",
   "boot": "auto",
   "image": "assada/mopidy-{arch}",
@@ -13,9 +13,9 @@
     "amd64",
     "i386"
   ],
-  "audio": true,
+  "audio": false,
   "options": {
-    "local_scan": true,
+    "local_scan": false,
     "mount": {
       "enabled": false,
       "disk": "/devices/sda1",
