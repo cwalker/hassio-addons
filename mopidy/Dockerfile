@@ -48,6 +48,8 @@ RUN apk update && apk add --no-cache --virtual .build-deps \
  		oauth2client \
     	pyasn1 \
         Mopidy-Moped \
+        setuptools \
+	Pykka \ 
         yandex_music \
         Mopidy-Yandexmusic \
         Mopidy-Scrobbler \
