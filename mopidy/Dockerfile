@@ -39,6 +39,7 @@ RUN apk update && apk add --no-cache --virtual .build-deps \
         tcl-dev \
         harfbuzz-dev \
         fribidi-dev \
+        upmpdcli \
  && pip install -U pip \
  && pip install \
         cffi \
